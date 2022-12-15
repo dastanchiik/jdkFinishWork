@@ -25,9 +25,8 @@ public class Main {
                 System.out.println("\n"+students);
                 System.out.println("1 -> добавить студента" + "\n" + "2 -> удалить студента" + "\n" + "3 -> все студенты");
                 num = scanner.nextInt();
-
             }
         }
-
     }
 }
+
