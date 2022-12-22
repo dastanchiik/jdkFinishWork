@@ -1,13 +1,10 @@
 package arrayList;
-
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Major {
     public static void main(String[] args) throws MyException {
     method();
     }
-
     public static void method() throws MyException {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Student>students = new ArrayList<>();
@@ -15,7 +12,7 @@ public class Major {
         int num = scanner.nextInt();
         int number = 0;
         while (number!=num){
-            System.out.println("\n\nвведите имя студента потом возраст");
+            System.out.println("\nвведите имя студента потом возраст");
         students.add(new Student(scanner.next(), scanner.nextInt()));
         number++;
         }
