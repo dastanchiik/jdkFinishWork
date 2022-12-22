@@ -15,6 +15,7 @@ public class Major {
         int num = scanner.nextInt();
         int number = 0;
         while (number!=num){
+            System.out.println("\n\nвведите имя студента потом возраст");
         students.add(new Student(scanner.next(), scanner.nextInt()));
         number++;
         }
